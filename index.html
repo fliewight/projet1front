@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Thaito</title>
+</head>
+<body>
+    <section class="top-nav">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Prix</a></li>
+          <li><a href="#">Nous contacter</a></li>
+          <li><a href="#">Connexion</a></li>
+          <li><a href="#" class="inscription">Inscription</a></li>
+        </ul>
+    </section>
+    <div id="container">
+        <header>
+            <img src="img/logo.svg" alt="Logo" height="30">
+            <h1>Thaito</h1>
+            <ul class="top-head">
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Prix</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+            <div id="login">
+                <a href="#">Connexion</a>
+                <a href="#" class="inscription">Inscription</a>
+            </div>
+        </header>
+        <main>
+            <section class="first-block" id="first">
+                <section id="head">
+                    <h2>Délicieux & abordable</h2>
+                    <h3><i>Repas chez vous.</i></h3>
+                    <p id="header-text" class="first-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio</p>
+                    <p id="command-rencontre">
+                        <a href="#" id="command-now" onclick="display()">Commander maintenant</a>
+                        <a href="#" id="rencontre">
+                            <img width="40" src="img/play-circle.svg" alt="" />&nbsp;&nbsp;
+                            <span onclick="youtube()">Rencontrez les chefs</span>
+                        </a>
+                    </p>
+                </section>
+                <section id="image1" class="head2">
+                    <img id="youtube" src="img/image-1.jpeg" class="radius" width="600" />
+                </section>
+            </section>
+            <section class="first-block">
+                <section class="head2">
+                    <img id="second-image" src="img/image-2.jpeg" class="radius" width="600" />
+                </section>
+                <section id="foot">
+                    <div id="text"></div>
+                    <p class="subtitle">Installé depuis 2014</p>
+                    <h2 class="h2">Nous vous servons</h2>
+                    <h3 id="year"><i>depuis 5 ans.</i></h3>
+                    <p class="first-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio, Incidunt, quam labore dolor distinctio, ducimus soluta alias unde stiae quisquam error. Neque ab recusandae velit?</p>
+                    <p class="first-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio, ducimus soluta alias unde stiae quisquam error. Neque ab recusandae velit?</p>
+                    <a href="#" id="add-one-year" onclick="addOneYear()">Ajouter 1 an</a>
+                </section>
+            </section>
+            <section id="incroyable">
+                <h2 id="delicious">Délicieux & abordable</h2>
+                <h3 id="prestation"><i>prestation.</i></h3>
+            </section>
+            <section id="details">
+                <article id="articleDetails">
+                    <img id="shop" src="img/shop.svg" alt="Shop" />
+                    <p class="number">230+ restaurants</p>
+                    <p>Lorem ipsum donor amet siti ceali placeholder text</p><br />
+                    <p><a class="linkDetails" href="#">En savoir plus →</a></p>
+                </article>
+                <article id="articleDetails">
+                    <img id="chef" src="img/chef.svg" alt="Shop" />
+                    <p class="number">Chefs professionnels</p>
+                    <p>Lorem ipsum donor amet siti ceali placeholder text</p><br />
+                    <p><a class="linkDetails" href="#">En savoir plus →</a></p>
+                </article>
+                <article id="articleDetails">
+                    <img id="celebration" src="img/celebration.svg" alt="Shop" />
+                    <p class="number">Traiteur anniversaire</p>
+                    <p>Lorem ipsum donor amet siti ceali placeholder text</p><br />
+                    <p><a class="linkDetails" href="#">En savoir plus →</a></p>
+                </article>
+            </section>
+            <section class="first-block">
+                <section id="head">
+                    <p class="subtitle">Une marque réputée</p>
+                    <h2 class="h2">Pourquoi</h2>
+                    <h3 id="food"><i>nous choisir ?</i></h3>
+                    <p class="first-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio</p>
+                    <section id="chiffres">
+                        <article class="table">
+                            <p id="commands">94000+</p>
+                            <a href="#" class="linkChiffres">Commandes</a>
+                        </article>
+                        <article class="table">
+                            <p id="consumers">11000+</p>
+                            <a href="#" class="linkChiffres">Clients</a>
+                        </article>
+                        <article class="table">
+                            <p id="chiefs">1500+</p>
+                            <a href="#" class="linkChiffres">Chefs</a>
+                        </article>
+                    </section>
+                    <p id="paraphNumbers"><a href="#" id="numbers" onclick="nbAlea()">Nombres aléatoires entre 1 et 99999</a></p>
+                </section>
+                <section id="image1" class="head2">
+                    <img id="youtube" src="img/image-3.jpeg" class="radius" width="600" />
+                </section>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <section class="tableFooter">
+            <p class="titleFooter">Principal</p>
+            <ul class="ulFooter">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">A propos de nous</a></li>
+            </ul>
+        </section>
+        <section class="tableFooter">
+            <p class="titleFooter">Produit</p>
+            <ul class="ulFooter">
+                <li><a href="#">Se connecter</a></li>
+                <li><a href="#">Personnel</a></li>
+                <li><a href="#">Entreprise</a></li>
+                <li><a href="#">Equipe</a></li>
+            </ul>
+        </section>
+        <section class="tableFooter">
+            <p class="titleFooter">Presse</p>
+            <ul class="ulFooter">
+                <li><a href="#">Logos</a></li>
+                <li><a href="#">Evénements</a></li>
+                <li><a href="#">Histoires</a></li>
+                <li><a href="#">Bureau</a></li>
+            </ul>
+        </section>
+        <section class="tableFooter">
+            <p class="titleFooter">Légal</p>
+            <ul class="ulFooter">
+                <li><a href="#">RGPD</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Conditions d'utilisations</a></li>
+                <li><a href="#">Avis de non-responsabilité</a></li>
+            </ul>
+        </section>
+        <section id="tableFooterNews">
+            <p class="titleFooter">S'inscrire à notre newsletter</p>
+            <p id="textFooterNews">Nous vous enverrons de bonnes choses à manger sans spam.</p>
+            <section id="newsletter">
+                <form method="post">
+                    <input id="email" type="email" placeholder="Votre adresse email" />
+                    <input type="submit" value="S'inscrire" onclick="verifEmail()" />
+                </form>
+            </section>
+        </section>
+    </footer>
+    <section id="copyright">
+        <hr />
+        <div id="copy">
+            <section class="tableCopy">
+                <img src="img/logo.svg" alt="Logo" height="30">
+                <h1>Thaito Inc.</h1>
+            </section>
+            <section class="tableCopy">
+                <p>&copy; 2022 Thaito Inc. Tous droits réservés.</p>
+            </section>
+            <section class="tableCopy">
+                <a class="social-network" href="#"><img src="img/facebook-icon.svg" alt="Facebook" height="30"></a>
+                <a class="social-network" href="#"><img src="img/twitter-icon.svg" alt="Twitter" height="30"></a>
+                <a class="social-network" href="#"><img src="img/youtube-icon.svg" alt="YouTube" height="30"></a>
+            </section>
+        </div>
+    </section>
+</body>
+</html>

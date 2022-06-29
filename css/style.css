@@ -1,0 +1,533 @@
+@charset "utf8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter;
+    margin-top: 20px;
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 3px 0 0 10px;
+}
+
+h3 {
+    background: url('../img/h3.png') no-repeat center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: -130px;
+    padding-top: 10px;
+    height: 84px;
+}
+
+.top-head ul {
+    margin-left: 40%;
+}
+
+.top-head li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.top-head li a {
+    color: #243e63;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#login {
+    margin-left: 40px;
+}
+
+#login a {
+    text-decoration: none;
+}
+
+.inscription, #command-now, #add-one-year, #numbers {
+    background-color: #4D1CF7;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+#paraphNumbers {
+    margin-top: 30px;
+}
+
+.first-block {
+    display: flex;
+    margin-top: 120px;
+    width: 80%;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.h2 {
+    margin-left: 40px;
+}
+
+.radius {
+    border-radius: 30px;
+}
+
+.first-text {
+    font-size: 14px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+#header-text {
+    padding: 10px;
+}
+
+#year {
+    margin-left: -80px;
+}
+
+#head a {
+    text-decoration: none;
+}
+
+#rencontre {
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+
+#rencontre {
+    color: #000;
+}
+
+#text {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#foot {
+    margin-left: 30px;
+}
+
+#add-one-year {
+    text-decoration: none;
+}
+
+.subtitle {
+    color: #6415ff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#incroyable {
+    display: flex;
+    margin: 130px 0 100px 0;
+    width: 100%;
+    justify-content: center;
+}
+
+#delicious {
+    padding-top: 20px;
+}
+
+#prestation {
+    margin-left: 60px;
+    width: 468px
+}
+
+#details {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0 200px 0;
+}
+
+#shop, #chef, #celebration {
+    border-radius: 50%;
+    background-color: #F7FAFC;
+}
+
+.number {
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+#shop:hover, #chef:hover, #celebration:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+#articleDetails {
+    width: 300px;
+}
+
+.linkDetails {
+    color: #8344FF;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#choice {
+    margin-left: -1050px;
+}
+
+.table {
+    width: 150px;
+}
+
+#commands, #consumers, #chiefs {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#chiffres {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#linkChiffres {
+    color: #5011CC;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #EDF2F7;
+    margin-top: 200px;
+    padding: 100px 200px;
+    width: 100%;
+    display: flex;
+}
+
+#copyright {
+    background-color: #EDF2F7;
+    margin-top: -150px;
+    padding: 100px 200px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #E2E8F0;
+}
+
+#copy {
+    display: flex;
+    margin-top: 85px;
+}
+
+.tableCopy {
+    display: flex;
+    width: 30%;
+}
+
+.tableCopy p {
+    color: #A0AEC0;
+}
+
+.social-network {
+    border-radius: 50%;
+}
+
+.tableFooter {
+    width: 250px;
+}
+
+#tableFooterNews {
+    width: auto;
+    margin-left: 100px;
+}
+
+.textFooterNews {
+    color: #718096;
+    font-size: 12px;
+}
+
+.titleFooter {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #4A5568;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+
+.ulFooter {
+    margin-top: 30px;
+}
+
+.ulFooter li {
+    height: 30px;
+    list-style-type: none;
+}
+
+.ulFooter li a {
+    font-size: 14px;
+    color: #4A5568;
+    height: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#newsletter {
+    display: flex;
+}
+
+input[type=email] {
+    background-color: #E2E8F0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 2px solid #CBD5E0;
+    margin-top: 20px;
+    color: #9CA3AF;
+    padding: 20px 0 20px 30px;
+    width: 300px
+}
+
+input[type=submit] {
+    background-color: #6416FF;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid #6416FF;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: -5px;
+}
+
+/** Menu burger **/
+.top-nav {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    height: 50px;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    height: 4px;justify-content: flex-end;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+/******************************************************************/
+
+@media (max-width: 1000px) {
+    .top-nav {
+        display: flex;
+    }
+
+    .menu-button {
+        justify-content: flex-end;
+    }
+
+    .menu-button-container {
+        display: flex;
+        padding-bottom: 20px;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked ~ .menu li {
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: #000;
+        background-color: #fff;
+    }
+
+    .menu > li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+
+    #login {
+        display: none;
+    }
+
+    #incroyable {
+        display: block;
+    }
+
+    #delicious {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #prestation, #food {
+        margin: auto
+    }
+
+    ul li {
+        display: none;
+    }
+
+    #container {
+        width: 100%;
+    }
+
+    .first-block {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    #command-rencontre {
+        margin-bottom: 35px;
+    }
+
+    #head {
+        text-align: center;
+        margin: -30px auto 0 auto;
+    }
+
+    #head h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+
+    .first-text {
+        font-size: 10px;
+    }
+
+    #command-now {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    #rencontre {
+        font-size: 10px;
+        margin-left: 0;
+        padding-bottom: 10px;
+    }
+
+    #rencontre img {
+        width: 30px;
+    }
+
+    .head2 img {
+        width: 100%
+    }
+
+    .head2 #second-image {
+        text-align: center;
+        width: 90%;
+    }
+
+    #tableFooterNews {
+        display: block;
+    }
+
+    .tableCopy {
+        display: block;
+    }
+}

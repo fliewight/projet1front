@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Thaito</title>
+</head>
+<body>
+    <section class="top-nav">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li>A propos</li>
+          <li>Blog</li>
+          <li>Prix</li>
+          <li>Nous contacter</li>
+          <li>Connexion</li>
+          <li><a href="#" class="inscription">Inscription</a></li>
+        </ul>
+    </section>
+    <div id="container">
+        <header>
+            <img src="img/logo.svg" alt="Logo" height="30">
+            <h1>Thaito</h1>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Prix</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+            <div id="login">
+                <a href="#">Connexion</a>
+                <a href="#" class="inscription">Inscription</a>
+            </div>
+        </header>
+        <main>
+            <section class="first-block" id="first">
+                <section id="head">
+                    <h2>Délicieux & abordable</h2>
+                    <h3><i>Repas chez vous.</i></h3>
+                    <p id="header-text" class="first-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio</p>
+                    <p id="command-rencontre">
+                        <a href="#" id="command-now" onclick="display()">Commander maintenant</a>
+                        <a href="#" id="rencontre">
+                            <img width="40" src="img/play-circle.svg" alt="" />&nbsp;&nbsp;
+                            <span onclick="youtube()">Rencontrez les chefs</span>
+                        </a>
+                    </p>
+                </section>
+                <section id="image1" class="head2">
+                    <img id="youtube" src="img/image-1.jpeg" class="radius" width="600" />
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Thaito</title>
+</head>
+<body>
+    <section class="top-nav">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li>A propos</li>
+          <li>Blog</li>
+          <li>Prix</li>
+          <li>Nous contacter</li>
+          <li>Connexion</li>
+          <li><a href="#" class="inscription">Inscription</a></li>
+        </ul>
+    </section>
+    <div id="container">
+        <header>
+            <img src="img/logo.svg" alt="Logo" height="30">
+            <h1>Thaito</h1>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Prix</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+            <div id="login">
+                <a href="#">Connexion</a>
+                <a href="#" class="inscription">Inscription</a>
+            </div>
+        </header>
+        <main>
+            <section class="first-block">
+                <section class="head2">
+                    <img id="second-image" src="img/image-2.jpeg" class="radius" width="600" />
+                </section>
+                <section id="foot">
+                    <div id="text"></div>
+                    <p id="install">Installé depuis 2014</p>
+                    <h2>Nous vous servons</h2>
+                    <h3 id="year"><i>depuis 5 ans.</i></h3>
+                    <p class="first-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio, Incidunt, quam labore dolor distinctio, ducimus soluta alias unde stiae quisquam error. Neque ab recusandae velit?</p>
+                    <p class="first-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quam labore dolor distinctio, ducimus soluta alias unde stiae quisquam error. Neque ab recusandae velit?</p>
+                    <a href="#" id="add-one-year" onclick="addOneYear()">Ajouter 1 an</a>
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
